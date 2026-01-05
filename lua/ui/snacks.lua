@@ -5,9 +5,14 @@ return {
     lazy = false,
     ---@type snacks.Config
     opts = {
-      indent    = { enabled = true },
-      gh        = { enabled = true },
-      quickfile = { enabled = true },
+      indent       = { enabled = true },
+      gh           = { enabled = true },
+      quickfile    = { enabled = true },
+      input        = { enabled = true },
+      scope        = { enabled = true },
+      words        = { enabled = true },
+      bigfile      = { enabled = true },
+      statuscolumn = { enabled = true },
 
       styles = {
         notification = {
@@ -131,6 +136,29 @@ return {
         filter = function(buf)
           return vim.g.snacks_scroll ~= false and vim.b[buf].snacks_scroll ~= false and vim.bo[buf].buftype ~= "terminal"
         end,
+      },
+
+      image = {
+        enabled = true,
+        formats = {
+          "png",
+          "jpg",
+          "jpeg",
+          "gif",
+          "bmp",
+          "webp",
+          "tiff",
+          "heic",
+          "avif",
+          "mp4",
+          "mov",
+          "avi",
+          "mkv",
+          "webm",
+          "pdf",
+          "icns",
+        },
+        force = false,
       },
     },
 
