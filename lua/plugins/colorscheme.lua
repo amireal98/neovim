@@ -1,11 +1,12 @@
 return {
   {
-    "bluz71/vim-moonfly-colors",
-    name = "moonfly",
+    "zenbones-theme/zenbones.nvim",
     lazy = false,
     priority = 1000,
+    dependencies = "rktjmp/lush.nvim",
     config = function()
-      vim.cmd.colorscheme "moonfly"
+      vim.g.zenbones_darken_comments = 45
+      vim.cmd.colorscheme "zenbones"
     end,
- },
+  },
 }
