@@ -8,8 +8,13 @@ return {
           disabled_filetypes = { statusline = { "snacks_dashboard" } },
           icons_enabled = false,
           theme = "auto",
-          section_separators = "",
-          component_separators = "",
+          section_separators   = { left = '', right = '' },
+          component_separators = { left = '', right = '' },
+          refresh = {
+            statusline = 1000,
+            winbar = 1000,
+            refresh_time = 16,
+          },
         },
         sections = {
           lualine_a = { "mode" },
