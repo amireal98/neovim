@@ -50,7 +50,9 @@ return {
           keys = {
             { icon = " ", key = "f", desc = "Open Telescope", action = ":lua Snacks.dashboard.pick('files')" },
             { icon = " ", key = "y", desc = "Open Yazi",      action = ":Yazi cwd" },
-            { icon = " ", key = "q", desc = "Quit",           action = ":qa" },
+            { icon = " ", key = "g", desc = "Open LazyGit",   action = ":lua Snacks.lazygit()" },
+            { icon = "󰒲 ", key = "l", desc = "Open lazy",      action = ":Lazy" },
+            { icon = " ", key = "q", desc = "Quit",           action = ":quitall" },
           },
           header = [[
 ░▒▓███████▓▒░░▒▓████████▓▒░▒▓██████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░▒▓██████████████▓▒░  
