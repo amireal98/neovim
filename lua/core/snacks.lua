@@ -35,7 +35,7 @@ return {
 
       notifier = {
         enabled = true,
-        timeout = 10000,
+        timeout = 50000,
       },
 
       dashboard = {

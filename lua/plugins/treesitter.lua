@@ -16,6 +16,7 @@ return {
         "c",
         "nix",
         "html",
+        "qml",
       },
     },
   },
