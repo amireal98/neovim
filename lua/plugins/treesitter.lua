@@ -17,6 +17,7 @@ return {
         "nix",
         "html",
         "qml",
+        "hyprlang",
       },
     },
   },
