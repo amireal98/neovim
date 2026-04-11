@@ -7,7 +7,7 @@ return {
         options = {
           disabled_filetypes = { statusline = { "snacks_dashboard" } },
           icons_enabled = false,
-          theme = "zenbones",
+          theme = "auto",
           section_separators   = { left = '', right = '' },
           component_separators = { left = '', right = '' },
           refresh = {
